@@ -953,9 +953,13 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 120px 0px 80px 0px;
   position: relative;
   overflow: hidden;
+}
+.main-banner h2 em {
+  font-style: normal;
+  color: #7272e4;
 }
 
 .main-banner:after {
@@ -1313,7 +1317,7 @@ Services Style
 
 .services .section-heading {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .services .section-heading .line-dec {
@@ -1340,13 +1344,13 @@ Services Style
 
 .services .icon img {
   margin-bottom: 10px;
-  max-width: 60px;
-  min-width: 60px;
+  max-width: 110px;
+  min-width: 110px;
 }
 
 .services .naccs .menu {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .services .naccs .menu div {
@@ -1367,11 +1371,12 @@ Services Style
   display: inline-block;
   width: 100%;
   padding: 30px 0px;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .services .naccs .menu div.active {
-  box-shadow: 0px 0px 15px rgba(0, 66, 234, 0.1);
+  box-shadow: 0px 0px 15px rgb(243 243 245);
+  background: #fff;
 }
 
 .services ul.nacc {
@@ -1401,7 +1406,7 @@ Services Style
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   border-radius: 15px;
-  padding: 80px 120px 50px 120px;
+  padding: 60px;
 }
 
 .services ul.nacc li {
@@ -1878,8 +1883,8 @@ form#contact #map iframe {
 }
 
 .fill-form {
-  padding: 5px;
-  margin: 60px 10px;
+  padding: 15px;
+  margin: 100px 10px;
 }
 
 .fill-form .info-post {
@@ -2030,7 +2035,7 @@ responsive
   }
   .main-banner {
     text-align: center;
-    padding: 226px 0px 30px 0px;
+    padding: 180px 0px 30px 0px;
   }
   .main-banner:before {
     display: none;
@@ -2115,6 +2120,8 @@ responsive
   }
   .services .icon img {
     margin: 0px;
+    max-width: 80px;
+    min-width: 80px;
   }
   .services ul.nacc li.active {
     padding: 15px;
